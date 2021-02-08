@@ -41,28 +41,41 @@ html{
   /* =====================================
 ===============Header Top===============
 ===================================== */
-  .header-top{
+  .header-top-area{
       background-color: #007bff;
-      color: white;
   }
   .header-top a{
-      color: white;
+    color: white;
+    text-decoration: none;
+  }
+  .top-color{
+      font-weight: bold;
   }
 /* =====================================
-===============Contect===============
+===============Navbar===============
 ===================================== */
   .navbar{
-      padding: 25px 10%;
+      padding: 25px 8%;
+      background-color: rgb(170, 165, 165);
   }
   .navbar-brand{
       margin-right: 40px;
+      padding-left: 10px;
+      color: white;
   }
   .navbar-nav{
-      margin-left: 14%;
+      /* margin-left: 14%; */
+      padding-left: 16%;
+  }
+  nav{
+      color: black;
+  }
+  .nav-link{
+    color: white;
   }
 
 /* =====================================
-===============Contect===============
+===============Contact===============
 ===================================== */
   .contact-icon a{
     color: black;
