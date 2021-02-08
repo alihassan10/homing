@@ -1,0 +1,80 @@
+html{
+    scroll-behavior: smooth;
+  }
+  /* :root{
+      --blue: #65ccbb;
+      --white: #ffffff;
+      --black: #062324;
+  } */
+  h1,h2,h3,h4,h5,h6{
+      padding: 0;
+      margin: 0;
+  }
+  ul{
+      padding: 0;
+      margin: 0;
+  }
+  h1{
+      font-weight: bolder;
+      color: #007bff;
+  }
+
+
+ 
+  .btn{
+      text-align: center;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 17px;
+      font-size: 18px;
+  }
+  .btn:hover{
+      background-color: #5fa8f7;
+      color: white;
+  }
+  section{
+      padding: 100px 0;
+  }
+
+/* =====================================
+===============Contect===============
+===================================== */
+  .contact-icon a{
+    color: black;
+    text-decoration: none;
+}
+.colour{
+    color: #007bff;
+}
+.contact-form .form-control{
+    border-radius: 10px;
+}
+
+/* =====================================
+===============Packages===============
+===================================== */
+.small{
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+.package-box{
+    border: 1px solid #cdcdcd;
+    transition: .6s all ease-out;
+}
+.package-price{
+    background-color: rgba(85, 84, 84, 0.39);
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+}
+.heading-size{
+    font-size: 14px;
+}
+.logo2{
+    display: inline;
+}
