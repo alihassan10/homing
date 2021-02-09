@@ -1,11 +1,9 @@
 html{
     scroll-behavior: smooth;
   }
-  /* :root{
-      --blue: #65ccbb;
-      --white: #ffffff;
-      --black: #062324;
-  } */
+  :root{
+      --blue: #007bff;
+  }
   h1,h2,h3,h4,h5,h6{
       padding: 0;
       margin: 0;
@@ -16,22 +14,20 @@ html{
   }
   h1{
       font-weight: bolder;
-      color: #007bff;
+      color: var(--blue);
   }
 
-
- 
   .btn{
       text-align: center;
       background-color: #007bff;
-      color: white;
+      color: #fff;
       text-decoration: none;
       border-radius: 17px;
       font-size: 18px;
   }
   .btn:hover{
-      background-color: #5fa8f7;
-      color: white;
+      background-color: #9ecafc;
+      color: #ffffff;
   }
   section{
       padding: 100px 0;
@@ -78,6 +74,10 @@ html{
       
       transition: 1s all ease;
   }
+  .free-btn:hover{
+    background-color: #9ecafc;
+    color: #ffffff;
+  }
 
 /* =====================================
 ===============Contact===============
@@ -92,6 +92,9 @@ html{
 .contact-form .form-control{
     border-radius: 10px;
 }
+.about-img{
+    transition: .7s all ease-in;
+}
 
 /* =====================================
 ===============Packages===============
@@ -102,7 +105,7 @@ html{
 }
 .package-box{
     border: 1px solid #cdcdcd;
-    transition: .6s all ease-out;
+    transition: .6s all ease;
 }
 .package-price{
     background-color: rgba(85, 84, 84, 0.39);
@@ -125,9 +128,15 @@ html{
 }
 .footer-icon a{
     border: 1px solid #cdcdcd;
-    height: 30px;
-    width: 30px;
-    padding-left: 15px;
+    height: 40px;
+    width: 40px;
+    line-height: 38px;
+    padding-left: 10px;
+    display: inline-block;
+    transition: .5s all ease;   
+}
+.footer-icon a:hover{
+    background-color: #007bff;
 }
 .quick-link ul{
     list-style: none;
@@ -135,12 +144,39 @@ html{
 .quick-link h3{
     font-weight: bold;
 }
+.quick-link a{
+    color: #ffffff;
+}
+.quick-link h4{
+    color: #ffffff;
+}
 .margin{
     margin-bottom: 4px;
+    color: #ffffff;
+}
+.margin:hover{
+    color: #007bff;
+}
+.margin-date{
+    margin-bottom: 4px;
+    color:  #878787;
+}
+.latest-news h4{
+    color: #ffffff;
+}
+.quick-link li{
+    transition: .5s all ease;
+    
 }
 .quick-link li:hover{
-    position: absolute;
-    right: 5px;
-    top: 0;
-    left: 0;
+    margin-left: 10px;
+}
+.quick-link a{
+    text-decoration: none;
+}
+.footer-img-box{
+    color: #ffffff;
+}
+.footer-img-box a{
+    color: #ffffff;
 }
