@@ -64,14 +64,16 @@ html{
       color: white;
   }
   .navbar-nav{
-      /* margin-left: 14%; */
+      margin-left: 14%;
       padding-left: 16%;
-  }
-  nav{
-      color: black;
   }
   .nav-link{
     color: white;
+  }
+  .nav-link:hover{
+      color: rgb(82, 81, 81);
+      
+      transition: 1s all ease;
   }
 
 /* =====================================
@@ -111,4 +113,9 @@ html{
 }
 .heading-size{
     font-size: 14px;
+}
+
+.footer-img img{
+    width: 30%;
+    
 }
