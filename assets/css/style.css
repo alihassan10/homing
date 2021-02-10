@@ -142,7 +142,25 @@ html{
     background-color: #007bff;
     color: #ffffff;
 }
-
+/* =====================================
+===============Packages===============
+===================================== */
+.service-icon a{
+    font-size: 100px;
+}
+.service-text{
+    font-size: 17px;
+    font-weight: bold;
+    transition: .7s all ease;
+}
+.service-box:hover{
+    color: #ffffff;
+    background-color: #007bff;
+    padding: 5px 0 15px 0;
+}
+.service-box:hover .service-icon a{
+    color: #ffffff;
+}
 /* =====================================
 ===============Packages===============
 ===================================== */
@@ -178,8 +196,13 @@ html{
 } */
 
 
-.testimonial-img{
-    margin-top: -30px;
+.testimonial-img img{
+    display: block;
+    width: 100%;
+    position: relative;
+    border-radius: 50px;
+    top: -30px;
+    border: 10px solid #1e6abb;
 }
 .testimonial-icon a{
     width: 40px;
@@ -200,7 +223,7 @@ html{
 }
 .testimonial-paragraph{
     color: #ffffff;
-    padding: 0 20p
+    padding-top: 20px;
 }
 /* =====================================
 ===============Footer===============
