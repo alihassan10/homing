@@ -95,6 +95,53 @@ html{
 .about-img{
     transition: .7s all ease-in;
 }
+.number{
+    margin-right: 15%;
+}
+
+/* =====================================
+===============Team===============
+===================================== */
+.team-box{
+    border: 1px solid #cdcdcd;
+    padding: 30px 0;
+    overflow: hidden;
+    position: relative;
+   
+}
+
+.team-img img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    
+}
+.team-text{
+    border: 1px solid #cdcdcd;
+    transition: .5s all ease;
+}
+.team-icon a{
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+}
+.team-icon{
+    position: absolute;
+    top: -150px;
+    right: 235px;
+    transition: 1s all ease;
+    border-radius: 20px 0 20px 0;
+}
+.team-box:hover .team-icon{
+    top: 0;
+    background-color: #007bff;
+    color: #ffffff;
+}
+.team-box:hover .team-text{
+    background-color: #007bff;
+    color: #ffffff;
+}
 
 /* =====================================
 ===============Packages===============
@@ -105,7 +152,7 @@ html{
 }
 .package-box{
     border: 1px solid #cdcdcd;
-    transition: .6s all ease;
+    transition: .8s all ease;
 }
 .package-price{
     background-color: rgba(85, 84, 84, 0.39);
@@ -119,6 +166,29 @@ html{
 }
 .heading-size{
     font-size: 14px;
+}
+
+/* =====================================
+===============Testimonial==============
+===================================== */
+.testimonial-img img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 8px solid #007bff;
+}
+.testimonial-img{
+    
+}
+.testimonial-icon a{
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    border: 4px solid #007bff;
+    padding-left: 12px;
+}
+.testimonial-box{
+    background-color: green;
 }
 /* =====================================
 ===============Footer===============
