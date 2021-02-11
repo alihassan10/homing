@@ -149,7 +149,7 @@ html{
     margin-bottom: 40px;
 }
 #about{
-    margin-bottom: 60px;
+    padding-bottom: 60px;
 }
 /* =====================================
 ===============Blog=================
@@ -257,6 +257,9 @@ html{
 ===================================== */
 .footer-img img{
     width: 30%;
+}
+footer{
+    padding-bottom: 96px;
 }
 .footer-icon a{
     border: 1px solid #cdcdcd;
