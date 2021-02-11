@@ -13,17 +13,22 @@ html{
       margin: 0;
   }
   h1{
-      font-weight: bolder;
-      color: var(--blue);
+      font-weight: bold;
   }
-
+  .form-control{
+      height: 50px;
+  }
+  .section-title{
+      margin-bottom: 50px;
+      text-align: center;
+  }
   .btn{
       text-align: center;
       background-color: #007bff;
       color: #fff;
       text-decoration: none;
-      border-radius: 17px;
       font-size: 18px;
+      padding: 12px 20px;
   }
   .btn:hover{
       background-color: #9ecafc;
@@ -54,18 +59,12 @@ html{
 ===============Navbar===============
 ===================================== */
   .navbar{
-      padding: 25px 8%;
       background-color: rgb(170, 165, 165);
   }
   .navbar-brand{
-      margin-right: 40px;
-      padding-left: 10px;
       color: white;
   }
-  .navbar-nav{
-      margin-left: 14%;
-      padding-left: 16%;
-  }
+
   .nav-link{
     color: white;
   }
@@ -73,6 +72,9 @@ html{
       color: rgb(82, 81, 81);
       
       transition: 1s all ease;
+  }
+  .nav-btn{
+      margin-left: 10px;
   }
   .free-btn:hover{
     background-color: #9ecafc;
@@ -88,9 +90,6 @@ html{
 }
 .colour{
     color: #007bff;
-}
-.contact-form .form-control{
-    border-radius: 10px;
 }
 .about-img{
     transition: .7s all ease-in;
@@ -129,9 +128,10 @@ html{
 .team-icon{
     position: absolute;
     top: -150px;
-    right: 235px;
+    left: 0;
+    padding: 0 10px;
+    /* right: 235px; */
     transition: 1s all ease;
-    border-radius: 20px 0 20px 0;
 }
 .team-box:hover .team-icon{
     top: 0;
@@ -143,20 +143,50 @@ html{
     color: #ffffff;
 }
 /* =====================================
-===============Packages===============
+===============About=================
 ===================================== */
+.about-img{
+    margin-bottom: 40px;
+}
+#about{
+    margin-bottom: 60px;
+}
+/* =====================================
+===============Blog=================
+===================================== */
+.blog-icon{
+    position: relative;
+    top: -23px;
+    background-color: #f0ecec;
+    padding: 10px 0;
+    margin: 0 15px;
+}
+.blog-icon a{
+    text-decoration: none;
+    
+    color: black;
+}
+.blog-color{
+    color: var(--blue);
+}
+/* =====================================
+===============Service===============
+===================================== */
+.service-box{
+    transition: .5s all ease;
+    -webkit-transition: .5s all ease;
+    padding: 5px 0 15px 0;
+}
 .service-icon a{
     font-size: 100px;
 }
 .service-text{
     font-size: 17px;
     font-weight: bold;
-    transition: .7s all ease;
 }
 .service-box:hover{
     color: #ffffff;
     background-color: #007bff;
-    padding: 5px 0 15px 0;
 }
 .service-box:hover .service-icon a{
     color: #ffffff;
@@ -190,19 +220,15 @@ html{
 ===============Testimonial==============
 ===================================== */
 
-/* .testimonial-img{
-    position: relative;
-    top: -40px;
-} */
 
-
+.testimonial-img{
+    background-color: #fff;
+}
 .testimonial-img img{
-    display: block;
-    width: 100%;
     position: relative;
+    top: 30px;
+    border: 6px solid #005fc4;
     border-radius: 50px;
-    top: -30px;
-    border: 10px solid #1e6abb;
 }
 .testimonial-icon a{
     width: 40px;
@@ -215,15 +241,16 @@ html{
     background-color: #ffffff;
 }
 .testimonial-box{
-    background-color: #007bff;
+    background-color: var(--blue);
 }
 .testimonial-heading{
     color: #ffffff;
-    padding-top: -10px;
+    padding-top: 40px;
 }
 .testimonial-paragraph{
     color: #ffffff;
-    padding-top: 20px;
+    padding-left: 20px ;
+    padding-right: 20px;
 }
 /* =====================================
 ===============Footer===============
