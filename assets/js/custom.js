@@ -3,7 +3,7 @@ $('#main-carousel').owlCarousel({
     nav:false,
     dots:false,
     autoplay:true,
-    autoplayTimeout:3500,
+    autoplayTimeout:3500000,
     responsive:{
         0:{
             items:1
@@ -47,11 +47,11 @@ $('#property-carousel').owlCarousel({
         0:{
             items:1
         },
-        600:{
+        700:{
             items:2
         },
         1000:{
-            items:4
+            items:3
         }
     }
 })
