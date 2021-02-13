@@ -280,6 +280,7 @@ html{
 .place-heading-long{
     position: absolute;
     top: 374px;
+    /* top: 330px; */
     bottom: 0;
     padding: 10px 0;
     background-color: #00000057;
@@ -298,6 +299,12 @@ html{
         background-color: var(--blue); 
     }
 }
+/* @media only screen and (min-width:992px){
+    .place-heading-long{
+        position: relative;
+        top: -90px; 
+    }
+} */
 
 /* =====================================
 ===============Packages===============
