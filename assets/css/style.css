@@ -186,6 +186,10 @@ html{
 #property{
     padding-bottom: 70px;
 }
+.property-box-text-area{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
 .property-location a{
     color: black;
     text-decoration: none;
@@ -225,7 +229,7 @@ html{
 .team-text{
     border: 1px solid #cdcdcd;
     transition: .5s all ease;
-    margin: 11px 0;
+    padding: 10px 0;
 }
 .team-icon a{
     display: block;
@@ -288,6 +292,9 @@ html{
 }
 .blog-btn a{
     text-decoration: none;
+}
+.blog-heading{
+    margin-top: -8px;
 }
 /* =====================================
 ===============Service===============
