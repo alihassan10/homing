@@ -285,6 +285,19 @@ html{
     background-color: #00000057;
     color: #ffffff;   
 }
+@media only screen and (max-width:767px){
+    .place-heading{
+       position: relative;
+        top: 0;
+        background-color: var(--blue);
+        
+    }
+    .place-heading-long{
+        position: relative;
+        top: 0; 
+        background-color: var(--blue); 
+    }
+}
 
 /* =====================================
 ===============Packages===============
