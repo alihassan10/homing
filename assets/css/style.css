@@ -8,6 +8,10 @@ html{
       padding: 0;
       margin: 0;
   }
+  p{
+      padding: 0;
+      margin: 0;
+  }
   ul{
       padding: 0;
       margin: 0;
@@ -22,13 +26,17 @@ html{
       margin-bottom: 50px;
       text-align: center;
   }
+  .float-right{
+      float: right!important;
+  }
   .btn{
       text-align: center;
-      background-color: #007bff;
+      background-color: var(--blue);
       color: #fff;
       text-decoration: none;
       font-size: 18px;
       padding: 12px 20px;
+      transition: .5s all ease;
   }
   .btn:hover{
       background-color: #9ecafc;
@@ -41,32 +49,39 @@ html{
     padding: 100px 0;
 }
 
-
   /* =====================================
 ===============Header Top===============
 ===================================== */
-  .header-top-area{
-      background-color: #007bff;
-  }
-  .header-top a{
-    color: white;
-    text-decoration: none;
-  }
-  .top-color{
-      font-weight: bold;
-  }
+.header-top-area{
+    padding: 10px 0;
+    background-color: #0050a7;
+    color: #fff;
+}
+.header-top-area a{
+    color: #fff;
+}
+
+
+@media only screen and (max-width:575px){
+    .top-address{
+        display: none;
+    }
+}
 /* =====================================
 ===============Navbar===============
 ===================================== */
+
+
+
   .navbar{
-      background-color: rgb(170, 165, 165);
+      background-color: var(--blue);
   }
   .navbar-brand{
-      color: white;
+      color: #fff!important;
   }
 
   .nav-link{
-    color: white;
+    color: #fff!important;
   }
   .nav-link:hover{
       color: rgb(82, 81, 81);
@@ -76,11 +91,14 @@ html{
   .nav-btn{
       margin-left: 10px;
   }
-  .free-btn:hover{
-    background-color: #9ecafc;
-    color: #ffffff;
+  .nav-btn .btn{
+      background-color: #005ec2;
+      border: 2px solid #005ec2;
   }
-
+  .nav-btn .btn:hover{
+    background-color: transparent;
+    border-color: #fff;
+}
 /* =====================================
 ===============Contact===============
 ===================================== */
@@ -89,13 +107,31 @@ html{
     text-decoration: none;
 }
 .colour{
-    color: #007bff;
+    color: var(--blue);
 }
 .about-img{
     transition: .7s all ease-in;
 }
 .number{
     margin-right: 15%;
+}
+/* =====================================
+===============Property===============
+===================================== */
+.property-box{
+    border: 1px solid #f0ecec;
+    margin-bottom: 30px;
+}
+#property{
+    padding-bottom: 70px;
+}
+.property-location a{
+    color: black;
+    text-decoration: none;
+}
+.property-last-icon a{
+    color: black;
+    text-decoration: none;
 }
 
 /* =====================================
@@ -138,11 +174,11 @@ html{
 }
 .team-box:hover .team-icon{
     top: 0;
-    background-color: #007bff;
+    background-color: var(--blue);
     color: #ffffff;
 }
 .team-box:hover .team-text{
-    background-color: #007bff;
+    background-color: var(--blue);
     color: #ffffff;
 }
 /* =====================================
@@ -174,6 +210,13 @@ html{
 }
 .blog-box{
     border: 1px solid #f0ecec;
+    margin-bottom: 30px;
+}
+#blog{
+    padding-bottom: 70px;
+}
+.blog-btn a{
+    text-decoration: none;
 }
 /* =====================================
 ===============Service===============
@@ -192,11 +235,41 @@ html{
 }
 .service-box:hover{
     color: #ffffff;
-    background-color: #007bff;
+    background-color: var(--blue);
 }
 .service-box:hover .service-icon a{
     color: #ffffff;
 }
+/* =====================================
+===============Place===============
+===================================== */
+.place-box{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.place-heading{
+    position: absolute;
+    top: 110px;
+    bottom: 0;
+    padding: 10px 0;
+    background-color: #00000057;
+    color: #ffffff;
+}
+.place-box-long{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.place-heading-long{
+    position: absolute;
+    top: 374px;
+    bottom: 0;
+    padding: 10px 0;
+    background-color: #00000057;
+    color: #ffffff;   
+}
+
 /* =====================================
 ===============Packages===============
 ===================================== */
@@ -234,14 +307,14 @@ html{
     position: relative;
     top: 30px;
     border: 6px solid #005fc4;
-    border-radius: 50px;
+    border-radius: 85px;
 }
 .testimonial-icon a{
     width: 40px;
     height: 40px;
     border-radius: 40px;
     display: inline-block;
-    border: 4px solid #007bff;
+    border: 4px solid var(--blue);
     padding-left: 9px;
     padding-top: 4px;
     background-color: #ffffff;
@@ -277,7 +350,7 @@ footer{
     transition: .5s all ease;   
 }
 .footer-icon a:hover{
-    background-color: #007bff;
+    background-color: var(--blue);
 }
 .quick-link ul{
     list-style: none;
@@ -296,7 +369,7 @@ footer{
     color: #ffffff;
 }
 .margin:hover{
-    color: #007bff;
+    color: var(--blue);
 }
 .margin-date{
     margin-bottom: 4px;
@@ -320,4 +393,18 @@ footer{
 }
 .footer-img-box a{
     color: #ffffff;
+}
+
+@media only screen and (max-width: 991px){
+    .hide-address{
+        display: none;
+    }
+}
+@media only screen and (max-width: 481px){
+    .hide-no{
+        display: none;
+    }
+    .top-social a{
+        text-align: center!important;
+    }
 }
