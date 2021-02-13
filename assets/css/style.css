@@ -21,6 +21,7 @@ html{
   }
   .form-control{
       height: 50px;
+      margin-bottom: 15px;
   }
   .section-title{
       margin-bottom: 50px;
@@ -112,8 +113,21 @@ html{
 .about-img{
     transition: .7s all ease-in;
 }
-.number{
-    margin-right: 15%;
+.contact-mail{
+    margin-left: 78px;
+}
+@media only screen and (max-width:575px){
+    .contact-form-mail,
+    .contact-form-name{
+        display: block!important;
+    }
+    .contact-number-mail,
+    .contact-location-time{
+        display: block!important
+    }
+    .contact-mail{
+        margin-left: 0;
+    }
 }
 /* =====================================
 ===============Property===============
