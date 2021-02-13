@@ -225,6 +225,7 @@ html{
 .team-text{
     border: 1px solid #cdcdcd;
     transition: .5s all ease;
+    margin: 11px 0;
 }
 .team-icon a{
     display: block;
@@ -450,6 +451,7 @@ footer{
 }
 .margin:hover{
     color: var(--blue);
+    transition: .5s all ease;
 }
 .margin-date{
     margin-bottom: 4px;
