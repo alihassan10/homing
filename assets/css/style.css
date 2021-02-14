@@ -340,7 +340,6 @@ html{
 }
 .place-heading-long{
     position: absolute;
-    /* top: 330px; */
     bottom: 0;
     padding: 10px 0;
     background-color: #00000057;
