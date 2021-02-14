@@ -30,6 +30,9 @@ html{
   .float-right{
       float: right!important;
   }
+  a:hover{
+    text-decoration: none;
+}
   .btn{
       text-align: center;
       background-color: var(--blue);
@@ -40,7 +43,7 @@ html{
       transition: .5s all ease;
   }
   .btn:hover{
-      background-color: #9ecafc;
+      background-color: #0a3a70;
       color: #ffffff;
   }
   section{
@@ -296,6 +299,12 @@ html{
 .blog-heading{
     margin-top: -8px;
 }
+.blog-pagination a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+}
 /* =====================================
 ===============Service===============
 ===================================== */
@@ -493,18 +502,17 @@ footer{
         text-align: center;
     }
 }
+  /* =====================================
+===============Header Top===============
+===================================== */
 
+.blog-detail{
 
-/* @media only screen and (max-width: 991px){
-    .hide-address{
-        display: none;
-    }
 }
-@media only screen and (max-width: 481px){
-    .hide-no{
-        display: none;
-    }
-    .top-social a{
-        text-align: center!important;
-    }
-} */
+.detail-text-icon{
+    background-color: #d8d4d4;
+    padding: 10px 0 10px 5px;
+}
+.right-tags-name a{
+    background-color: #c9cbce;
+}
